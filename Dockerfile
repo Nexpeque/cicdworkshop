@@ -1,16 +1,6 @@
-FROM node:15.14.0-alpine3.10
+FROM nginx
 
-WORKDIR /app
+COPY build /usr/share/nginx/html
 
-ENV PATH /app/node_modules/.bin:$PATH
-
-COPY package.json ./
-COPY package-lock.json ./
-
-RUN npm install --silent
-RUN npm install react-scripts@3.4.1 -g --silent
-
-COPY . ./
-EXPOSE 3000
-
-CMD ["npm", "start"]
+EXPOSE 8080
+EXPOSE 80
