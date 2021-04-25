@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": " set CI=true && react-scripts test --watch=all",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
