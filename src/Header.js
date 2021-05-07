@@ -11,7 +11,7 @@ export default class Header extends PureComponent {
           height="32"
           alt=""
         />
-        Emoji Search :D!
+        Hello I am Sergio!
         <img
           src="//cdn.jsdelivr.net/emojione/assets/png/1f63a.png"
           width="32"
