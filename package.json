@@ -8,7 +8,7 @@
     "gh-pages": "^2.0.1",
     "jest-enzyme": "^7.1.2",
     "prettier": "^1.17.1",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.0"
   },
   "dependencies": {
     "clipboard": "^2.0.4",
@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": " set CI=true && react-scripts test --watch=all",
+    "test": " react-scripts test --watch=all",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
