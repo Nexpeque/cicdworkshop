@@ -7,15 +7,15 @@ export default class Header extends PureComponent {
       <header className="component-header">
         <img
           src="//cdn.jsdelivr.net/emojione/assets/png/1f638.png"
-          width="50"
-          height="50"
+          width="32"
+          height="32"
           alt=""
         />
-        Emoji Search!
+        Emoji Search, TEST!!
         <img
           src="//cdn.jsdelivr.net/emojione/assets/png/1f63a.png"
-          width="50"
-          height="50"
+          width="32"
+          height="32"
           alt=""
         />
       </header>
